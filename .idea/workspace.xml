@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b85d4b58-b549-454c-b026-46223404f6f4" name="Changes" comment="Created class Exceptions">
+    <list default="true" id="b85d4b58-b549-454c-b026-46223404f6f4" name="Changes" comment="Modified class Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/SelectorsCSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/Exceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AlinaBugHunter"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlinaBugHunter&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AlinaBugHunter/W001_Demo.git",
-    "accountId": "71cf6737-ce99-4d92-acc4-6f383b05498c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlinaBugHunter/W001_Demo.git&quot;,
+    &quot;accountId&quot;: &quot;71cf6737-ce99-4d92-acc4-6f383b05498c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oz9uS7FqzzcFZpS3SPtMGiMSTz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,8 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build W001_Demo.executor": "Run",
     "Gradle.W001_Demo [:tests.Exceptions.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.SelectorsCSS.selectorsHomePage.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -60,7 +64,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SelectorsCSS.selectorsHomePage">
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.Exceptions" />
       <module name="W001_Demo.main" />
@@ -74,8 +78,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectorsCSS.selectorsHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="W001_Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelectorsCSS" />
+      <option name="METHOD_NAME" value="selectorsHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelectorsCSS.selectorsHomePage" />
         <item itemvalue="Application.Exceptions" />
       </list>
     </recent_temporary>
@@ -97,11 +120,20 @@
       <option name="project" value="LOCAL" />
       <updated>1731862626214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified class Exceptions">
+      <option name="closed" value="true" />
+      <created>1731864236612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731864236612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created class Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class Exceptions" />
+    <MESSAGE value="Modified class Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified class Exceptions" />
   </component>
 </project>
