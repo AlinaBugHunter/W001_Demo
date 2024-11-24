@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +18,8 @@ public class SelectorsCSS {
         // The option to open the browser
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();
+        hideBanner();
+        hideFooter();
 
         WebElement logo = driver.findElement(By.cssSelector("img[src='/images/Toolsqa.jpg']"));
         System.out.println(logo.getTagName());
@@ -26,12 +29,28 @@ public class SelectorsCSS {
     }
 
     @Test
-    public void sleep() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    public void selectorsRadioButtonPage() {
+
+        driver.get("https://demoqa.com/radio-button");
+        driver.manage().window().maximize();
+        hideBanner();
+        hideFooter();
+
+        WebElement btnYes = driver.findElement(By.cssSelector("label[for='yesRadio']"));
+        btnYes.click();
+
+        driver.quit();
+
+    }
+
+    private void hideBanner() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelector('#fixedban').style.display='none'");
+    }
+
+    private void hideFooter() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelector('footer').style.display='none'");
     }
 
 }
